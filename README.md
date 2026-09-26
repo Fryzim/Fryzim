@@ -8,7 +8,7 @@
 <a href="mailto:chaabane.ouammou@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-<img src="https://img.shields.io/badge/🎯_En_recherche-Stage_de_fin_d'études-2ecc71?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🎯_En_recherche-Stage_de_fin_d%27études-2ecc71?style=for-the-badge"/>
 
 </div>
 
@@ -20,7 +20,7 @@
 
 Je suis **à la recherche d'un stage de fin d'études** (Data Scientist, Data Analyst, Data Engineer, MLOps, ou tout poste en lien avec la donnée) — disponible pour en discuter si mon profil vous intéresse.
 
-Ce qui me plaît dans ce métier : passer d'une question floue à une réponse chiffrée et defendable, en creusant jusqu'à ce que les résultats soient solides — pas juste "ça a l'air de marcher".
+Ce qui me plaît dans ce métier : passer d'une question floue à une réponse chiffrée et défendable, en creusant jusqu'à ce que les résultats soient solides — pas juste "ça a l'air de marcher".
 
 ## 🔭 Ce que je fais
 
@@ -60,11 +60,11 @@ Ce qui me plaît dans ce métier : passer d'une question floue à une réponse c
 
 ## 🎯 En dehors du code
 
-🎬 **Cinéma** — assez pour avoir passé du temps à miner un dataset Letterboxd juste pour comprendre ce qui rend un film culte plutôt que moyen
-⚽ **Football** — joueur et spectateur
-🍲 **Cuisine marocaine** — et l'exigence d'un tajine réussi
-🥾 **Randonnée**
-🗣️ **Linguistique** — comment le langage se structure, se traduit, et se modélise (le pont naturel avec le NLP)
+- 🎬 **Cinéma** — assez pour avoir passé du temps à miner un dataset Letterboxd juste pour comprendre ce qui rend un film culte plutôt que moyen
+- ⚽ **Football** — joueur et spectateur
+- 🍲 **Cuisine marocaine** — et l'exigence d'un tajine réussi
+- 🥾 **Randonnée**
+- 🗣️ **Linguistique** — comment le langage se structure, se traduit, et se modélise (le pont naturel avec le NLP)
 
 <br/>
 
