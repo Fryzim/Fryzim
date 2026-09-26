@@ -58,14 +58,6 @@ Ce qui me plaît dans ce métier : passer d'une question floue à une réponse c
 <img src="https://streak-stats.demolab.com/?user=Fryzim&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </div>
 
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Fryzim/Fryzim/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Fryzim/Fryzim/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/Fryzim/Fryzim/output/github-contribution-grid-snake.svg" />
-</picture>
-</div>
-
 ## 🎯 En dehors du code
 
 🎬 **Cinéma** — assez pour avoir passé du temps à miner un dataset Letterboxd juste pour comprendre ce qui rend un film culte plutôt que moyen
