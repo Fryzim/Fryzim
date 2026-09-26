@@ -34,16 +34,18 @@ Ce qui me plaît, c'est passer d'une question floue à une réponse chiffrée et
 ![](https://img.shields.io/badge/r%C3%A9f%C3%A9rences_invent%C3%A9es-23%25_%E2%86%92_5%25-2ecc71?style=for-the-badge)
 ![](https://img.shields.io/badge/Recall%401-0%2C08_%E2%86%92_0%2C15-8DBDFF?style=for-the-badge&labelColor=1F3A5F)
 
+**[📊 Dashboard interactif](https://fryzim.github.io/legal-ai/)** — Recall@k par méthode, ROUGE-L par configuration, écart par catégorie juridique
+
 </div>
 
 ## 📌 Autres projets
 
-| Projet | Ce que ça montre | Stack |
-|---|---|---|
-| [**Mining Film Appreciation Patterns**](https://github.com/Fryzim/Mining-Film-Appreciation-Patterns-in-Letterboxd-Dataset) | 94 159 films Letterboxd analysés. Les vieux films sont mieux notés à cause d'un biais de survie, pas d'une meilleure qualité (r = −0,86 entre volume et note par décennie). Règles d'association, k-means, forêts aléatoires | `R` `dplyr` |
-| [**Automobile-analysis**](https://github.com/Fryzim/Automobile-analysis) | 392 voitures de 1970 à 1982 face aux chocs pétroliers. Le poids est le premier facteur de consommation, et la part de modèles conformes à la norme CAFE passe d'environ 20 % à plus de 80 %. ACP, régression polynomiale | `pandas` `scikit-learn` |
-| [**benchmarking_knapsack01**](https://github.com/Fryzim/benchmarking_knapsack01) | 16 algorithmes comparés pour le sac à dos 0/1 (exacts, FPTAS, greedy, métaheuristiques) sur plus de 1000 instances | `Python` `NumPy` |
-| [**KNN-Classifier**](https://github.com/Fryzim/KNN-Classifier) | k-NN codé from scratch, avec 3 optimisations comparées (distances précalculées, inégalité triangulaire, kd-tree) | `Python` `SciPy` |
+| Projet | Ce que ça montre | Stack | Dashboard |
+|---|---|---|---|
+| [**Mining Film Appreciation Patterns**](https://github.com/Fryzim/Mining-Film-Appreciation-Patterns-in-Letterboxd-Dataset) | 94 159 films Letterboxd analysés. Les vieux films sont mieux notés à cause d'un biais de survie, pas d'une meilleure qualité (r = −0,86 entre volume et note par décennie). Règles d'association, k-means, forêts aléatoires | `R` `dplyr` | — |
+| [**Automobile-analysis**](https://github.com/Fryzim/Automobile-analysis) | 392 voitures de 1970 à 1982 face aux chocs pétroliers. Le poids est le premier facteur de consommation, et la part de modèles conformes à la norme CAFE passe d'environ 20 % à plus de 80 %. ACP, régression polynomiale | `pandas` `scikit-learn` | — |
+| [**benchmarking_knapsack01**](https://github.com/Fryzim/benchmarking_knapsack01) | 16 algorithmes comparés pour le sac à dos 0/1 (exacts, FPTAS, greedy, métaheuristiques) sur plus de 1000 instances | `Python` `NumPy` | [live ↗](https://fryzim.github.io/benchmarking_knapsack01/) |
+| [**KNN-Classifier**](https://github.com/Fryzim/KNN-Classifier) | k-NN codé from scratch, avec 3 optimisations comparées (distances précalculées, inégalité triangulaire, kd-tree) | `Python` `SciPy` | [live ↗](https://fryzim.github.io/KNN-Classifier/) |
 
 ## 🛠️ Stack
 
