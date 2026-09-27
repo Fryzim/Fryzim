@@ -1,27 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1F3A5F"/>
-      <stop offset="1" stop-color="#3C7DD9"/>
+      <stop offset="0" stop-color="#0F2440"/>
+      <stop offset="1" stop-color="#2F6FC9"/>
     </linearGradient>
     <style>
-      .name{font:700 56px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff;animation:up .9s ease-out .1s both}
-      .sub{font:400 24px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#DCE9FF;animation:up .9s ease-out .5s both}
-      .dot{fill:#8DBDFF;opacity:.18}
+      .name{font:700 54px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff;animation:up .9s ease-out .1s both}
+      .sub{font:600 24px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#DCE9FF;animation:up .9s ease-out .4s both}
+      .tag{font:400 17px 'Fira Code',Consolas,monospace;fill:#8DBDFF;animation:up .9s ease-out .7s both}
+      .lbl{font:600 12px 'Fira Code',Consolas,monospace;fill:#8DBDFF;opacity:.75}
+      .n{fill:#8DBDFF}
+      .e{stroke:#8DBDFF;stroke-width:1.5;opacity:.45}
+      .pulse{animation:pulse 2.4s ease-in-out infinite}
+      .bar{fill:#8DBDFF;opacity:.55;transform-box:fill-box;transform-origin:bottom;animation:grow 1.2s ease-out both}
+      .flow{stroke:#8DBDFF;stroke-width:2;fill:none;stroke-dasharray:6 6;animation:dash 1.2s linear infinite;opacity:.6}
       @keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+      @keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+      @keyframes dash{to{stroke-dashoffset:-12}}
     </style>
   </defs>
-  <rect width="1200" height="240" fill="url(#g)"/>
-  <path d="M0 190 C 200 150, 400 230, 600 195 S 1000 150, 1200 190 L1200 240 L0 240 Z" fill="#ffffff" opacity=".08"/>
-  <path d="M0 210 C 250 180, 450 245, 700 212 S 1050 180, 1200 205 L1200 240 L0 240 Z" fill="#ffffff" opacity=".10"/>
-  <g class="dot">
-    <circle cx="1030" cy="60" r="4"/><circle cx="1070" cy="85" r="4"/><circle cx="1110" cy="55" r="4"/>
-    <circle cx="1060" cy="120" r="4"/><circle cx="1120" cy="110" r="4"/>
-    <line x1="1030" y1="60" x2="1070" y2="85" stroke="#8DBDFF" stroke-width="2"/>
-    <line x1="1070" y1="85" x2="1110" y2="55" stroke="#8DBDFF" stroke-width="2"/>
-    <line x1="1070" y1="85" x2="1060" y2="120" stroke="#8DBDFF" stroke-width="2"/>
-    <line x1="1070" y1="85" x2="1120" y2="110" stroke="#8DBDFF" stroke-width="2"/>
+  <rect width="1200" height="260" fill="url(#g)"/>
+  <path d="M0 215 C 250 185, 450 250, 700 218 S 1050 185, 1200 212 L1200 260 L0 260 Z" fill="#fff" opacity=".07"/>
+
+  <!-- Gauche : réseau de neurones (IA / deep learning) -->
+  <g transform="translate(55,45)">
+    <g class="e">
+      <line x1="0" y1="20" x2="70" y2="0"/><line x1="0" y1="20" x2="70" y2="50"/><line x1="0" y1="20" x2="70" y2="100"/>
+      <line x1="0" y1="80" x2="70" y2="0"/><line x1="0" y1="80" x2="70" y2="50"/><line x1="0" y1="80" x2="70" y2="100"/>
+      <line x1="0" y1="140" x2="70" y2="50"/><line x1="0" y1="140" x2="70" y2="100"/><line x1="0" y1="140" x2="70" y2="150"/>
+      <line x1="70" y1="0" x2="140" y2="50"/><line x1="70" y1="50" x2="140" y2="50"/><line x1="70" y1="100" x2="140" y2="50"/>
+      <line x1="70" y1="100" x2="140" y2="110"/><line x1="70" y1="150" x2="140" y2="110"/><line x1="70" y1="50" x2="140" y2="110"/>
+    </g>
+    <g class="n">
+      <circle cx="0" cy="20" r="6" class="pulse"/><circle cx="0" cy="80" r="6" class="pulse" style="animation-delay:.4s"/><circle cx="0" cy="140" r="6" class="pulse" style="animation-delay:.8s"/>
+      <circle cx="70" cy="0" r="6" class="pulse" style="animation-delay:.2s"/><circle cx="70" cy="50" r="6" class="pulse" style="animation-delay:.6s"/><circle cx="70" cy="100" r="6" class="pulse" style="animation-delay:1s"/><circle cx="70" cy="150" r="6" class="pulse" style="animation-delay:1.4s"/>
+      <circle cx="140" cy="50" r="7" class="pulse" style="animation-delay:.5s"/><circle cx="140" cy="110" r="7" class="pulse" style="animation-delay:.9s"/>
+    </g>
+    <text x="70" y="178" text-anchor="middle" class="lbl">model.fit()</text>
   </g>
-  <text x="600" y="112" text-anchor="middle" class="name">Chaabane Ouammou</text>
-  <text x="600" y="156" text-anchor="middle" class="sub">Data &amp; IA · LLM, RAG, Machine Learning</text>
+
+  <!-- Droite : pipeline de données puis graphique (data / MLOps) -->
+  <g transform="translate(930,55)">
+    <rect x="0" y="0" width="44" height="26" rx="5" fill="none" stroke="#8DBDFF" stroke-width="1.5" opacity=".8"/>
+    <text x="22" y="17" text-anchor="middle" class="lbl">SQL</text>
+    <path d="M44 13 H80" class="flow"/>
+    <rect x="80" y="0" width="54" height="26" rx="5" fill="none" stroke="#8DBDFF" stroke-width="1.5" opacity=".8"/>
+    <text x="107" y="17" text-anchor="middle" class="lbl">ETL</text>
+    <path d="M134 13 H170" class="flow"/>
+    <rect x="170" y="0" width="54" height="26" rx="5" fill="none" stroke="#8DBDFF" stroke-width="1.5" opacity=".8"/>
+    <text x="197" y="17" text-anchor="middle" class="lbl">LLM</text>
+    <path d="M197 26 V50" class="flow"/>
+    <g transform="translate(60,55)">
+      <line x1="0" y1="90" x2="170" y2="90" stroke="#8DBDFF" stroke-width="1.5" opacity=".6"/>
+      <rect class="bar" x="10" y="55" width="22" height="35" style="animation-delay:.3s"/>
+      <rect class="bar" x="45" y="35" width="22" height="55" style="animation-delay:.45s"/>
+      <rect class="bar" x="80" y="45" width="22" height="45" style="animation-delay:.6s"/>
+      <rect class="bar" x="115" y="15" width="22" height="75" style="animation-delay:.75s"/>
+      <polyline points="21,50 56,30 91,40 126,8" fill="none" stroke="#fff" stroke-width="2" opacity=".7"/>
+    </g>
+    <text x="145" y="168" text-anchor="middle" class="lbl">dashboard → insights</text>
+  </g>
+
+  <text x="600" y="100" text-anchor="middle" class="name">Chaabane Ouammou</text>
+  <text x="600" y="142" text-anchor="middle" class="sub">Data Analysis · Data Science · IA · MLOps</text>
+  <text x="600" y="176" text-anchor="middle" class="tag">&gt; stage de fin d'études · février 2027 · 6 mois</text>
 </svg>

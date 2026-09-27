@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Chaabane Ouammou, Data et IA"/>
+<img src="./banner.svg" width="100%" alt="Chaabane Ouammou, Data Analysis, Data Science, IA et MLOps"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3C7DD9&center=true&vCenter=true&width=620&lines=Stage+de+fin+d'%C3%A9tudes+Data+%2F+IA+%C3%A0+partir+de+f%C3%A9vrier+2027;LLM%2C+RAG+et+IA+g%C3%A9n%C3%A9rative;Pipelines+de+donn%C3%A9es%2C+SQL%2C+Python;Des+r%C3%A9sultats+chiffr%C3%A9s+et+d%C3%A9fendables" alt="Typing SVG"/></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3C7DD9&center=true&vCenter=true&width=640&lines=Data+Analyst+%C2%B7+Data+Scientist+%C2%B7+Ing%C3%A9nieur+IA;Des+donn%C3%A9es+brutes+aux+dashboards+et+aux+insights;LLM%2C+RAG+et+IA+g%C3%A9n%C3%A9rative;Pipelines+de+donn%C3%A9es+%C2%B7+SQL+%C2%B7+Spark+%C2%B7+Python;Du+notebook+%C3%A0+la+production%2C+cap+sur+le+MLOps" alt="Typing SVG"/></a>
 
 <a href="https://linkedin.com/in/chaabane-ouammou"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:chaabane.ouammou@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
@@ -14,7 +14,7 @@
 
 Étudiant en **M2 Machine Learning & Data Mining** à l'Université Jean Monnet (Saint-Étienne), dans un master international enseigné en anglais.
 
-Je cherche un **stage de fin d'études de 6 mois à partir de février 2027**, en Data / IA, ML engineering ou NLP.
+Je cherche un **stage de fin d'études de 6 mois à partir de février 2027**, en data analysis, data visualisation, data science, IA, ML engineering, MLOps ou NLP.
 
 Ce qui me plaît, c'est passer d'une question floue à une réponse chiffrée et défendable, et comprendre *pourquoi* des données ou un modèle se trompent plutôt que me contenter d'un bon score.
 
@@ -34,7 +34,7 @@ Ce qui me plaît, c'est passer d'une question floue à une réponse chiffrée et
 ![](https://img.shields.io/badge/r%C3%A9f%C3%A9rences_invent%C3%A9es-23%25_%E2%86%92_5%25-2ecc71?style=for-the-badge)
 ![](https://img.shields.io/badge/Recall%401-0%2C08_%E2%86%92_0%2C15-8DBDFF?style=for-the-badge&labelColor=1F3A5F)
 
-**[📊 Dashboard interactif](https://fryzim.github.io/legal-ai/)** — Recall@k par méthode, ROUGE-L par configuration, écart par catégorie juridique
+**[📊 Dashboard interactif](https://fryzim.github.io/legal-ai/)**, Recall@k par méthode, ROUGE-L par configuration, écart par catégorie juridique
 
 </div>
 
@@ -44,15 +44,15 @@ Ce qui me plaît, c'est passer d'une question floue à une réponse chiffrée et
 |---|---|---|---|
 | [**Mining Film Appreciation Patterns**](https://github.com/Fryzim/Mining-Film-Appreciation-Patterns-in-Letterboxd-Dataset) | 94 159 films Letterboxd analysés. Les vieux films sont mieux notés à cause d'un biais de survie, pas d'une meilleure qualité (r = −0,86 entre volume et note par décennie). Règles d'association, k-means, forêts aléatoires | `R` `dplyr` | — |
 | [**Automobile-analysis**](https://github.com/Fryzim/Automobile-analysis) | 392 voitures de 1970 à 1982 face aux chocs pétroliers. Le poids est le premier facteur de consommation, et la part de modèles conformes à la norme CAFE passe d'environ 20 % à plus de 80 %. ACP, régression polynomiale | `pandas` `scikit-learn` | [live ↗](https://fryzim.github.io/Automobile-analysis/) |
-| [**benchmarking_knapsack01**](https://github.com/Fryzim/benchmarking_knapsack01) | 16 algorithmes comparés pour le sac à dos 0/1 (exacts, FPTAS, greedy, métaheuristiques) sur plus de 1000 instances | `Python` `NumPy` | [live ↗](https://fryzim.github.io/benchmarking_knapsack01/) |
+| [**benchmarking_knapsack01**](https://github.com/Fryzim/benchmarking_knapsack01) | 16 algorithmes comparés pour le sac à dos 0/1 (exacts, FPTAS, greedy, métaheuristiques) avec 1 197 exécutions sur plus de 100 instances, en équipe de 4 | `Python` `NumPy` | [live ↗](https://fryzim.github.io/benchmarking_knapsack01/) |
 | [**KNN-Classifier**](https://github.com/Fryzim/KNN-Classifier) | k-NN codé from scratch, avec 3 optimisations comparées (distances précalculées, inégalité triangulaire, kd-tree) | `Python` `SciPy` | [live ↗](https://fryzim.github.io/KNN-Classifier/) |
 
-## 📊 Reporting — Power BI
+## 📊 Reporting Power BI
 
-Rapport construit sur le projet Automobile-analysis (392 véhicules, dataset public Auto MPG) : Power Query pour le nettoyage, KPI, répartition par origine, conformité CAFE par année, poids vs consommation.
+Rapport construit sur le projet Automobile-analysis (392 véhicules, dataset public Auto MPG), avec Power Query pour le nettoyage, KPI, répartition par origine, conformité CAFE par année, poids vs consommation.
 
 <p align="center">
-<img src="./assets/powerbi_automobile.png" width="100%" alt="Rapport Power BI — Automobile Analysis"/>
+<img src="./assets/powerbi_automobile.png" width="100%" alt="Rapport Power BI, Automobile Analysis"/>
 </p>
 
 <p align="center">
