@@ -47,6 +47,20 @@ Ce qui me plaît, c'est passer d'une question floue à une réponse chiffrée et
 | [**benchmarking_knapsack01**](https://github.com/Fryzim/benchmarking_knapsack01) | 16 algorithmes comparés pour le sac à dos 0/1 (exacts, FPTAS, greedy, métaheuristiques) sur plus de 1000 instances | `Python` `NumPy` | [live ↗](https://fryzim.github.io/benchmarking_knapsack01/) |
 | [**KNN-Classifier**](https://github.com/Fryzim/KNN-Classifier) | k-NN codé from scratch, avec 3 optimisations comparées (distances précalculées, inégalité triangulaire, kd-tree) | `Python` `SciPy` | [live ↗](https://fryzim.github.io/KNN-Classifier/) |
 
+## 📊 Reporting — Power BI
+
+Rapport construit sur le projet Automobile-analysis (392 véhicules, dataset public Auto MPG) : Power Query pour le nettoyage, KPI, répartition par origine, conformité CAFE par année, poids vs consommation.
+
+<p align="center">
+<img src="./assets/powerbi_automobile.png" width="100%" alt="Rapport Power BI — Automobile Analysis"/>
+</p>
+
+<p align="center">
+<a href="https://github.com/Fryzim/Automobile-analysis/blob/main/reporting/automobile_analysis_report.pbix">📄 Fichier .pbix</a> ·
+<a href="https://github.com/Fryzim/Automobile-analysis/blob/main/reporting/power_query.m">🔧 Script Power Query</a> ·
+<a href="https://fryzim.github.io/Automobile-analysis/">🌐 Dashboard web (Chart.js)</a>
+</p>
+
 ## 🛠️ Stack
 
 <p align="center">
@@ -54,6 +68,7 @@ Ce qui me plaît, c'est passer d'une question floue à une réponse chiffrée et
 </p>
 
 <p align="center">
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logoColor=black"/>
 <img src="https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=flat-square&logoColor=black"/>
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
 <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
